@@ -338,6 +338,16 @@ font-size: 20px;
 <div>
     <p style="color: red;">Sua nota é:<span style="color: red" id ="count">0</span></p>
 
+<script>
+    function fecha() {
+        if (confirm("Deseja mesmo sair?")) {
+            close();
+        }
+    }
+</script>
+<a onclick=fecha()>
+    <button class="button">Sair</button>
+    </a>
   </div>
 </div>
         </body>
